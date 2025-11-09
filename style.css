@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  border-bottom: 2px solid gold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.hero {
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  border-bottom: 2px solid gold;
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  color: gold;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+
+.hero-content button {
+  padding: 12px 30px;
+  border: none;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.products {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.products h2 {
+  color: gold;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product img {
+  width: 300px;
+  height: auto;
+  border: 2px solid gold;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.product img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  border-top: 2px solid gold;
+  color: white;
+}
